@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\TugasBesarMasCepi.vbproj": {}
+    "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\TugasBesarMasCepi.vbproj": {}
   },
   "projects": {
-    "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\TugasBesarMasCepi.vbproj": {
+    "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\TugasBesarMasCepi.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\TugasBesarMasCepi.vbproj",
+        "projectUniqueName": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\TugasBesarMasCepi.vbproj",
         "projectName": "TugasBesarMasCepi",
-        "projectPath": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\TugasBesarMasCepi.vbproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\obj\\",
+        "projectPath": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\TugasBesarMasCepi.vbproj",
+        "packagesPath": "C:\\Users\\AZKA\\.nuget\\packages\\",
+        "outputPath": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AZKA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

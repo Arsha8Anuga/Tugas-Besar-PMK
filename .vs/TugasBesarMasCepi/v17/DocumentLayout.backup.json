@@ -1,10 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\",
+  "WorkspaceRootPath": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|e:\\dev ( pemogramman )\\kuliah\\praktek\\pemogramman komputer\\tugas besar\\visual basic\\tugasbesarmascepi\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|d:\\dokumen polman\\1aec3\\pemrograman komputer\\pmktugasbesar\\tugas-besar-pmk\\logactivity.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:logactivity.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|d:\\dokumen polman\\1aec3\\pemrograman komputer\\pmktugasbesar\\tugas-besar-pmk\\homepage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:homepage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|d:\\dokumen polman\\1aec3\\pemrograman komputer\\pmktugasbesar\\tugas-besar-pmk\\tabel.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:tabel.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|d:\\dokumen polman\\1aec3\\pemrograman komputer\\pmktugasbesar\\tugas-besar-pmk\\tabel.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:tabel.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|d:\\dokumen polman\\1aec3\\pemrograman komputer\\pmktugasbesar\\tugas-besar-pmk\\createdata.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:createdata.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|d:\\dokumen polman\\1aec3\\pemrograman komputer\\pmktugasbesar\\tugas-besar-pmk\\homepage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:homepage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|d:\\dokumen polman\\1aec3\\pemrograman komputer\\pmktugasbesar\\tugas-besar-pmk\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|d:\\dokumen polman\\1aec3\\pemrograman komputer\\pmktugasbesar\\tugas-besar-pmk\\sql_setup\\databaseconnect.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:sql_setup\\databaseconnect.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,11 +58,98 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Tabel.vb",
+              "DocumentMoniker": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\Tabel.vb",
+              "RelativeDocumentMoniker": "Tabel.vb",
+              "ToolTip": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\Tabel.vb",
+              "RelativeToolTip": "Tabel.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-20T16:48:19.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tabel.vb [Design]",
+              "DocumentMoniker": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\Tabel.vb",
+              "RelativeDocumentMoniker": "Tabel.vb",
+              "ToolTip": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\Tabel.vb [Design]",
+              "RelativeToolTip": "Tabel.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-20T16:26:28.338Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Homepage.vb",
+              "DocumentMoniker": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\Homepage.vb",
+              "RelativeDocumentMoniker": "Homepage.vb",
+              "ToolTip": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\Homepage.vb",
+              "RelativeToolTip": "Homepage.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-20T16:10:07.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Logactivity.vb [Design]",
+              "DocumentMoniker": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\Logactivity.vb",
+              "RelativeDocumentMoniker": "Logactivity.vb",
+              "ToolTip": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\Logactivity.vb [Design]",
+              "RelativeToolTip": "Logactivity.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-20T16:04:52.149Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Createdata.vb [Design]",
+              "DocumentMoniker": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\Createdata.vb",
+              "RelativeDocumentMoniker": "Createdata.vb",
+              "ToolTip": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\Createdata.vb [Design]",
+              "RelativeToolTip": "Createdata.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-20T15:42:07.164Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Homepage.vb [Design]",
+              "DocumentMoniker": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\Homepage.vb",
+              "RelativeDocumentMoniker": "Homepage.vb",
+              "ToolTip": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\Homepage.vb [Design]",
+              "RelativeToolTip": "Homepage.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-20T15:22:40.798Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DatabaseConnect.vb",
+              "DocumentMoniker": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\SQL_Setup\\DatabaseConnect.vb",
+              "RelativeDocumentMoniker": "SQL_Setup\\DatabaseConnect.vb",
+              "ToolTip": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\SQL_Setup\\DatabaseConnect.vb",
+              "RelativeToolTip": "SQL_Setup\\DatabaseConnect.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-15T23:25:20.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Form1.vb [Design]",
-              "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Form1.vb",
+              "DocumentMoniker": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\Form1.vb",
               "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Form1.vb [Design]",
+              "ToolTip": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\Form1.vb [Design]",
               "RelativeToolTip": "Form1.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-09-15T23:18:47.32Z",
