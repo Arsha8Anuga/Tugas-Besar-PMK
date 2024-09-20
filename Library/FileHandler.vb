@@ -2,7 +2,6 @@
 
 Module FileHandler
 
-
     Public Function IniReader(filePath As String, ParamArray fileHeader As String()) As Dictionary(Of String, List(Of String))
 
         Dim fileChecker As New FileInfo(filePath)

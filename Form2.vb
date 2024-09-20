@@ -1,16 +1,25 @@
-﻿Public Class Form2
+﻿
+
+Public Class Form2
+
+    Private userId As String = "1"
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        Dim startup As KeyValuePair(Of Integer, String)
+        Dim result As KeyValuePair(Of Integer, Object) = DBReadUser(userId)
 
-        startup = DBStartUp(ConstantManagement.SETTING_FILE_PATH, "INSERT INTO Employees (FirstName, LastName, Email, PhoneNumber, HireDate, Salary, Department) VALUES
-('Luthfi', 'Rustian', 'john.doe@example.com', '123-456-7890', '2021-06-15', 60000.00, 'Engineering'),
-('Jane', 'Smith', 'jane.smith@example.com', '987-654-3210', '2020-01-10', 75000.00, 'Marketing'),
-('Emily', 'Johnson', 'emily.johnson@example.com', '555-123-4567', '2019-03-25', 50000.00, 'Sales'),
-('Michael', 'Brown', 'michael.brown@example.com', '444-321-9876', '2022-11-05', 80000.00, 'Management');")
+        If result.Key = 0 Then
+            Dim userData As List(Of Dictionary(Of String, Object)) = CType(result.Value, List(Of Dictionary(Of String, Object)))
 
 
-        Label1.Text = startup.Value
+            Dim user As Dictionary(Of String, Object) = userData.FirstOrDefault()
+
+            If user IsNot Nothing Then
+                Dim userInfo As String = $"ID: {user("id")}, Email: {user("email")}, Username: {user("username")}, Password: {user("user_password")}"
+                Label1.Text = userInfo
+            End If
+        Else
+            Label1.Text = $"Error: {result.Value}"
+        End If
 
     End Sub
 End Class
