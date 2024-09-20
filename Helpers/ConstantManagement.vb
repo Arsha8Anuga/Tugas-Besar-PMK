@@ -1,5 +1,5 @@
-﻿Public Class ConstantManagement
+﻿Module ConstantManagement
 
-    Public SETTING_FILE_PATH As String = Application.StartupPath & "\setting.ini"
+    Public SETTING_FILE_PATH As String = "..\settings.ini"
 
-End Class
+End Module
