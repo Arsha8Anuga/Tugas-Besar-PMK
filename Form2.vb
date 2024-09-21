@@ -3,23 +3,39 @@
 Public Class Form2
 
     Private userId As String = "1"
+    'Private bgTask As SessionTask
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        Dim result As KeyValuePair(Of Integer, Object) = DBReadUser(userId)
+        'Dim myObject As New Form1()
+        'Dim instanceType As Type = myObject.GetType()
 
-        If result.Key = 0 Then
-            Dim userData As List(Of Dictionary(Of String, Object)) = CType(result.Value, List(Of Dictionary(Of String, Object)))
+        'Label1.Text = instanceType.ToString()
+
+        'Dim loginForm As Form = CType(Activator.CreateInstance(Type.GetType(ConstantManagement.LOGIN_CLASS)), Form)
+        'loginForm.Show()
+
+        'bgTask = New SessionTask()
+        'bgTask.StartSessionChecker()
+
+        'Dim result As KeyValuePair(Of Integer, Object) = DBReadUser(userId)
+
+        'If result.Key = 0 Then
+        '    Dim userData As List(Of Dictionary(Of String, Object)) = CType(result.Value, List(Of Dictionary(Of String, Object)))
 
 
-            Dim user As Dictionary(Of String, Object) = userData.FirstOrDefault()
+        '    Dim user As Dictionary(Of String, Object) = userData.FirstOrDefault()
 
-            If user IsNot Nothing Then
-                Dim userInfo As String = $"ID: {user("id")}, Email: {user("email")}, Username: {user("username")}, Password: {user("user_password")}"
-                Label1.Text = userInfo
-            End If
-        Else
-            Label1.Text = $"Error: {result.Value}"
-        End If
+        '    If user IsNot Nothing Then
+        '        Dim userInfo As String = $"ID: {user("id")}, Email: {user("email")}, Username: {user("username")}, Password: {user("user_password")}"
+        '        Label1.Text = userInfo
+        '    End If
+        'Else
+        '    Label1.Text = $"Error: {result.Value}"
+        'End If
+
+    End Sub
+
+    Private Sub Form2_exit(sender As Object, e As EventArgs) Handles MyBase.Closed
 
     End Sub
 End Class

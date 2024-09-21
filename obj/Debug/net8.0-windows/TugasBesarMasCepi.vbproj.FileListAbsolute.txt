@@ -35,3 +35,4 @@ E:\dev ( pemogramman )\Kuliah\Praktek\Pemogramman Komputer\Tugas Besar\Visual Ba
 E:\dev ( pemogramman )\Kuliah\Praktek\Pemogramman Komputer\Tugas Besar\Visual Basic\TugasBesarMasCepi\bin\Debug\net8.0-windows\OxyPlot.Wpf.dll
 E:\dev ( pemogramman )\Kuliah\Praktek\Pemogramman Komputer\Tugas Besar\Visual Basic\TugasBesarMasCepi\bin\Debug\net8.0-windows\OxyPlot.Wpf.Shared.dll
 E:\dev ( pemogramman )\Kuliah\Praktek\Pemogramman Komputer\Tugas Besar\Visual Basic\TugasBesarMasCepi\obj\Debug\net8.0-windows\TugasBesarMasCepi.Form2.resources
+E:\dev ( pemogramman )\Kuliah\Praktek\Pemogramman Komputer\Tugas Besar\Visual Basic\TugasBesarMasCepi\obj\Debug\net8.0-windows\TugasBesarMasCepi.Form3.resources

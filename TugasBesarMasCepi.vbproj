@@ -40,6 +40,10 @@
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Session\Temp\" />
+  </ItemGroup>
 	
 
 </Project>
