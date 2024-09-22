@@ -1,10 +1,36 @@
 ﻿
 
+Imports System.Windows.Documents
+
 Public Class Form2
 
     Private userId As String = "1"
     'Private bgTask As SessionTask
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        Dim session As New SessionManager()
+
+
+
+        '' Create dummy dictionaries
+        'Dim dict1 As New Dictionary(Of String, Object) From {
+        '    {"Name", "John Doe"},
+        '    {"Age", 30},
+        '    {"IsEmployed", True},
+        '    {"Salary", 50000.5}
+        '}
+
+        'dummyDataList.Add(dict1)
+
+        'Dim result As Boolean = session.GenerateSession(dummyDataList)
+
+        Dim sessionRead = session.ReadSession()
+        Dim sessionData = sessionRead(0)("email").ToString()
+
+
+
+        Label1.Text = sessionData
+
 
         'Dim myObject As New Form1()
         'Dim instanceType As Type = myObject.GetType()

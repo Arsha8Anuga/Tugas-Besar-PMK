@@ -8,10 +8,15 @@ Module FileHandler
         Dim dataHolder As New Dictionary(Of String, List(Of String))()
 
         If fileChecker.Exists Then
+
             Dim lines As String() = File.ReadAllLines(filePath)
+
+
+
             Dim currentHeader As String = Nothing
 
             For Each line As String In lines
+
                 line = line.Trim()
 
 
@@ -22,8 +27,11 @@ Module FileHandler
                     End If
 
                 ElseIf Not String.IsNullOrWhiteSpace(line) AndAlso currentHeader IsNot Nothing Then
+
                     Dim parts As String() = line.Split("="c, 2)
+
                     If parts.Length = 2 Then
+
                         Dim value As String = parts(1).Trim()
 
                         dataHolder(currentHeader).Add(value)
@@ -33,6 +41,7 @@ Module FileHandler
         End If
 
         Return dataHolder
+
     End Function
 
 

@@ -12,8 +12,10 @@
 
         '' Hide Form3 after a short delay to ensure form2 is fully initialized
         Await Task.Delay(10)
+
         bgTask = New SessionTask()
         bgTask.StartSessionChecker()
+
         Hide()
     End Sub
 

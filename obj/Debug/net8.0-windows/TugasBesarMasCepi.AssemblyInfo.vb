@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("TugasBesarMasCepi"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05cc1c080ca20c05b1c18a62e898593368f9592b"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81295c7977a9b73b3fb6eac9cd9ba1768933d27e"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("TugasBesarMasCepi"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("TugasBesarMasCepi"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

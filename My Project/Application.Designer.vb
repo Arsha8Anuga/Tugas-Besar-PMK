@@ -31,7 +31,7 @@ Namespace My
 
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Form3
+            Me.MainForm = DatabaseVerification
         End Sub
     End Class
 End Namespace
