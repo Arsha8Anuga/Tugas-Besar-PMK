@@ -53,5 +53,13 @@ Public Class LoginUser
 
     End Sub
 
+    Private Sub RegisterLink_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles RegisterLink.LinkClicked
 
+        Dim register As New Register()
+        register.Show()
+
+
+        Close()
+
+    End Sub
 End Class

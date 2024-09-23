@@ -13,6 +13,9 @@
     <Compile Update="Form3.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\Authentication\Register\Register.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\LogActivity\LogActivity.vb">
       <SubType>Form</SubType>
     </Compile>

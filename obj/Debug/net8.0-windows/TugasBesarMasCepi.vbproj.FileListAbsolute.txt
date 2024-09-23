@@ -42,3 +42,4 @@ E:\dev ( pemogramman )\Kuliah\Praktek\Pemogramman Komputer\Tugas Besar\Visual Ba
 E:\dev ( pemogramman )\Kuliah\Praktek\Pemogramman Komputer\Tugas Besar\Visual Basic\TugasBesarMasCepi\obj\Debug\net8.0-windows\TugasBesarMasCepi.CreateData.resources
 E:\dev ( pemogramman )\Kuliah\Praktek\Pemogramman Komputer\Tugas Besar\Visual Basic\TugasBesarMasCepi\obj\Debug\net8.0-windows\TugasBesarMasCepi.LogActivity.resources
 E:\dev ( pemogramman )\Kuliah\Praktek\Pemogramman Komputer\Tugas Besar\Visual Basic\TugasBesarMasCepi\obj\Debug\net8.0-windows\TugasBesarMasCepi.TableAndVisualization.resources
+E:\dev ( pemogramman )\Kuliah\Praktek\Pemogramman Komputer\Tugas Besar\Visual Basic\TugasBesarMasCepi\obj\Debug\net8.0-windows\TugasBesarMasCepi.Register.resources

@@ -53,6 +53,36 @@ Module DBProcessor
         End If
     End Function
 
+    Public Function DBInsertUser(parameters As Dictionary(Of String, Object)) As KeyValuePair(Of Integer, String)
+
+        Dim columns As New List(Of String)()
+        Dim parameterNames As New List(Of String)()
+        Dim sqlParams As New List(Of MySqlParameter)()
+
+        ' Iterate through each column in UserTableColumn and add matching parameters
+        For Each column As String In UserTableColumn.Value
+            If parameters.ContainsKey(column) Then
+                columns.Add(column)
+                parameterNames.Add("@" & column)
+                sqlParams.Add(New MySqlParameter("@" & column, parameters(column)))
+            End If
+        Next
+
+        ' Combine column names and parameter placeholders into an SQL query
+        Dim query As String = $"INSERT INTO {UserTableColumn.Key} ({String.Join(", ", columns)}) VALUES ({String.Join(", ", parameterNames)})"
+
+        ' Call DBConnector.DBStartUp to execute the query
+        Dim result As KeyValuePair(Of Integer, Object) = DBConnector.DBStartUp(ConstantManagement.SETTING_FILE_PATH, query, sqlParams)
+
+        ' Check the result and return success or failure message
+        If result.Key = 0 Then
+            Return New KeyValuePair(Of Integer, String)(0, "User data inserted successfully!")
+        Else
+            Return New KeyValuePair(Of Integer, String)(result.Key, "Error inserting user data: " & result.Value.ToString())
+        End If
+
+    End Function
+
     Public Function DBInsertFinance(parameters As Dictionary(Of String, Object)) As KeyValuePair(Of Integer, String)
 
         Dim columns As New List(Of String)()

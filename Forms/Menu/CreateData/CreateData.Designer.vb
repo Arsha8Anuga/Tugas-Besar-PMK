@@ -110,7 +110,6 @@ Partial Class CreateData
         PerincianText.Name = "PerincianText"
         PerincianText.Size = New Size(382, 108)
         PerincianText.TabIndex = 5
-        PerincianText.TextAlign = HorizontalAlignment.Right
         ' 
         ' NominalText
         ' 

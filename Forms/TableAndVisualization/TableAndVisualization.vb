@@ -57,23 +57,32 @@ Public Class TableAndVisualization
         ' Get the selected date from the DateTimePicker
         Dim selectedDate As DateTime = DateTimePicker.Value
 
-        ' Determine the date range based on the ComboBox selection
+        ' Start and end dates for filtering data
         Dim startDate As DateTime
         Dim endDate As DateTime = DateTimePicker.Value ' End date from DateTimePicker
 
+        ' Always get data for the past month for the graph
+        Dim graphStartDate As DateTime = DateTime.Now.AddMonths(-1).Date ' Always show data for the last month
+
+        Dim isDay As Boolean = False
+
+        ' Determine the date range based on the ComboBox selection
         Select Case CBTime.SelectedIndex
             Case 0 ' 0: Current Day
-                startDate = endDate.Date ' Start at the beginning of the day
+                startDate = selectedDate.AddMonths(-1).Date
             Case 1 ' 1: One Month Ago
-                startDate = endDate.AddMonths(-1).Date ' Start one month ago
+                ' If one month is selected, show data for the last month in the table
+                startDate = selectedDate.AddMonths(-1).Date
+                isDay = False
             Case Else
-                startDate = endDate.Date ' Default to end date if invalid index
+                startDate = selectedDate.AddMonths(-1).Date ' Default to last month if index is invalid
+                isDay = False
         End Select
 
-        ' Now use the startDate and endDate in your filters
-
+        ' Use the startDate and endDate in the filters for table data only
         filters.Add("create_at ::StrtDT", startDate)
         filters.Add("create_at ::EndDT", endDate)
+
         ' Add finance type filter
         If typeStr = "Pemasukan" Then
             filters.Add("finance_type", "Pemasukan")
@@ -89,9 +98,10 @@ Public Class TableAndVisualization
             ' Process the results
             Dim results As List(Of Dictionary(Of String, Object)) = CType(result.Value, List(Of Dictionary(Of String, Object)))
 
-
+            ' Sort the results by date
             results = results.OrderBy(Function(record) Convert.ToDateTime(record("create_at"))).ToList()
-            ' Create a DataTable to hold the results
+
+            ' Create a DataTable for the table display
             Dim dataTable As New DataTable()
             dataTable.Columns.Add("Finance Type")
             dataTable.Columns.Add("Method")
@@ -99,8 +109,11 @@ Public Class TableAndVisualization
             dataTable.Columns.Add("Details")
             dataTable.Columns.Add("Create At")
 
-            ' Populate the DataTable with results
+            ' Populate the DataTable with results for table display
             For Each record As Dictionary(Of String, Object) In results
+
+                ' Filter for today's data if isDay is True, otherwise use the full range
+
                 Dim row As DataRow = dataTable.NewRow()
                 row("Finance Type") = record("finance_type")
                 row("Method") = record("method")
@@ -108,46 +121,45 @@ Public Class TableAndVisualization
                 row("Details") = record("details")
                 row("Create At") = Convert.ToDateTime(record("create_at")).ToString("g") ' Format datetime
                 dataTable.Rows.Add(row)
+
             Next
 
             dataTable.DefaultView.Sort = "Create At ASC"
-
             ' Bind the DataTable to the DataGridView
             TableData.DataSource = dataTable
 
+            ' Generate the graph using data for the last month
             Dim plotModel As New PlotModel()
 
-            ' Create a LineSeries for the plot
+
             Dim lineSeries As New LineSeries With {
-                .Color = If(typeStr = "Pemasukan", OxyColors.Green, OxyColors.Red),
-                .Title = "Monthly Data"
-            }
+                    .Color = If(typeStr = "Pemasukan", OxyColors.Green, OxyColors.Red),
+                    .Title = "Monthly Data"
+                }
 
-            ' Create a ScatterSeries for showing points (limited to 6 points)
             Dim scatterSeries As New ScatterSeries With {
-                .MarkerType = MarkerType.Circle,
-                .MarkerFill = OxyColors.Black,
-                .MarkerSize = 2
-            }
+                    .MarkerType = MarkerType.Circle,
+                    .MarkerFill = OxyColors.Black,
+                    .MarkerSize = 2
+                }
 
-            Dim pointCount As Integer = 0 ' To keep track of how many points are added to ScatterSeries
+            Dim pointCount As Integer = 0
 
-            ' Loop through the sorted results to populate the plot
+
             For Each record As Dictionary(Of String, Object) In results
-                Dim createAt As DateTime = Convert.ToDateTime(record("create_at"))
+                Dim createAt As Date = Convert.ToDateTime(record("create_at"))
                 Dim nominal As Decimal = Convert.ToDecimal(record("nominal"))
 
-                ' Only add data from the last month (within 30 days)
-                If createAt >= DateTime.Now.AddMonths(-1) AndAlso createAt <= DateTime.Now Then
-                    ' Add data to LineSeries
-                    lineSeries.Points.Add(New DataPoint(DateTimeAxis.ToDouble(createAt), nominal))
+                ' Only add data from the last month for the graph (within 30 days)
 
-                    ' Add points to ScatterSeries, but limit to 6 points
-                    If pointCount < 6 Then
-                        scatterSeries.Points.Add(New ScatterPoint(DateTimeAxis.ToDouble(createAt), nominal))
-                        pointCount += 1
-                    End If
-                End If
+                ' Add data to LineSeries
+                lineSeries.Points.Add(New DataPoint(DateTimeAxis.ToDouble(createAt), nominal))
+
+                ' Add points to ScatterSeries, but limit to 6 points
+
+                scatterSeries.Points.Add(New ScatterPoint(DateTimeAxis.ToDouble(createAt), nominal))
+
+
             Next
 
             ' Add the LineSeries to the plot model
@@ -158,22 +170,20 @@ Public Class TableAndVisualization
 
             ' Set the axes
             plotModel.Axes.Add(New DateTimeAxis() With {
-        .Position = AxisPosition.Bottom,
-        .Title = "Date"
-    })
+                    .Position = AxisPosition.Bottom,
+                    .Title = "Date"
+                })
             plotModel.Axes.Add(New LinearAxis() With {
-        .Position = AxisPosition.Left,
-        .Title = "Nominal"
-    })
+                    .Position = AxisPosition.Left,
+                    .Title = "Nominal"
+                })
 
             ' Bind the plot model to the OxyPlot control
             DataGraph.Model = plotModel
 
-
         Else
             MessageBox.Show("Error loading data: " & result.Value.ToString())
         End If
-
     End Sub
 
     Private Function GatherGridViewValues(Optional sortBy As String = "Create At") As List(Of Dictionary(Of String, Object))

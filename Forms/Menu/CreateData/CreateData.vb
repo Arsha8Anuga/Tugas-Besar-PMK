@@ -56,6 +56,21 @@
         Dim sessionRawData = session.ReadSession()
         Dim sessionId = sessionRawData(0)("id").ToString()
 
+        Dim parsingInteger As Boolean = Integer.TryParse(NominalText.Text, 0)
+
+        If Not parsingInteger Then
+
+            MsgBox("Error : Invalid Number!!")
+
+            NominalText.Text = ""
+            MetodeCB.SelectedIndex = DEFAULT_CB_BOX_VALUE
+            PerincianText.Text = ""
+
+
+            Return
+
+        End If
+
 
         Dim parameters As New Dictionary(Of String, Object) From {
             {"finance_type", financeType},
