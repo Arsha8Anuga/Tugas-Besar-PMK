@@ -23,10 +23,10 @@ Partial Class Logactivity
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         btnback2 = New Button()
-        tblog1 = New TextBox()
-        tblog2 = New TextBox()
-        tblog3 = New TextBox()
         tblog4 = New TextBox()
+        tblog3 = New TextBox()
+        tblog2 = New TextBox()
+        tblog1 = New TextBox()
         SuspendLayout()
         ' 
         ' btnback2
@@ -40,27 +40,16 @@ Partial Class Logactivity
         btnback2.Text = "Back"
         btnback2.UseVisualStyleBackColor = False
         ' 
-        ' tblog1
+        ' tblog4
         ' 
-        tblog1.BackColor = SystemColors.ScrollBar
-        tblog1.Font = New Font("Yu Gothic UI", 13.8F)
-        tblog1.Location = New Point(50, 113)
-        tblog1.Multiline = True
-        tblog1.Name = "tblog1"
-        tblog1.ReadOnly = True
-        tblog1.Size = New Size(530, 126)
-        tblog1.TabIndex = 1
-        ' 
-        ' tblog2
-        ' 
-        tblog2.BackColor = SystemColors.ScrollBar
-        tblog2.Font = New Font("Yu Gothic UI", 13.8F)
-        tblog2.Location = New Point(50, 246)
-        tblog2.Multiline = True
-        tblog2.Name = "tblog2"
-        tblog2.ReadOnly = True
-        tblog2.Size = New Size(530, 126)
-        tblog2.TabIndex = 2
+        tblog4.BackColor = SystemColors.ScrollBar
+        tblog4.Font = New Font("Yu Gothic UI", 13.8F)
+        tblog4.Location = New Point(50, 518)
+        tblog4.Multiline = True
+        tblog4.Name = "tblog4"
+        tblog4.ReadOnly = True
+        tblog4.Size = New Size(530, 126)
+        tblog4.TabIndex = 4
         ' 
         ' tblog3
         ' 
@@ -73,16 +62,27 @@ Partial Class Logactivity
         tblog3.Size = New Size(530, 126)
         tblog3.TabIndex = 3
         ' 
-        ' tblog4
+        ' tblog2
         ' 
-        tblog4.BackColor = SystemColors.ScrollBar
-        tblog4.Font = New Font("Yu Gothic UI", 13.8F)
-        tblog4.Location = New Point(50, 518)
-        tblog4.Multiline = True
-        tblog4.Name = "tblog4"
-        tblog4.ReadOnly = True
-        tblog4.Size = New Size(530, 126)
-        tblog4.TabIndex = 4
+        tblog2.BackColor = SystemColors.ScrollBar
+        tblog2.Font = New Font("Yu Gothic UI", 13.8F)
+        tblog2.Location = New Point(50, 246)
+        tblog2.Multiline = True
+        tblog2.Name = "tblog2"
+        tblog2.ReadOnly = True
+        tblog2.Size = New Size(530, 126)
+        tblog2.TabIndex = 2
+        ' 
+        ' tblog1
+        ' 
+        tblog1.BackColor = SystemColors.ScrollBar
+        tblog1.Font = New Font("Yu Gothic UI", 13.8F)
+        tblog1.Location = New Point(50, 113)
+        tblog1.Multiline = True
+        tblog1.Name = "tblog1"
+        tblog1.ReadOnly = True
+        tblog1.Size = New Size(530, 126)
+        tblog1.TabIndex = 1
         ' 
         ' Logactivity
         ' 
@@ -102,8 +102,8 @@ Partial Class Logactivity
     End Sub
 
     Friend WithEvents btnback2 As Button
-    Friend WithEvents tblog1 As TextBox
-    Friend WithEvents tblog2 As TextBox
-    Friend WithEvents tblog3 As TextBox
     Friend WithEvents tblog4 As TextBox
+    Friend WithEvents tblog3 As TextBox
+    Friend WithEvents tblog2 As TextBox
+    Friend WithEvents tblog1 As TextBox
 End Class

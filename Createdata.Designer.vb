@@ -27,13 +27,19 @@ Partial Class Createdata
         btnkeluar = New Button()
         btnback = New Button()
         gbform = New GroupBox()
+        lblnominal = New Label()
+        Label2 = New Label()
+        lblketerangan = New Label()
+        tbket = New TextBox()
+        tbnominal = New TextBox()
+        gbform.SuspendLayout()
         SuspendLayout()
         ' 
         ' btnsubmit
         ' 
         btnsubmit.BackColor = SystemColors.ScrollBar
         btnsubmit.Font = New Font("Yu Gothic UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        btnsubmit.Location = New Point(460, 529)
+        btnsubmit.Location = New Point(462, 529)
         btnsubmit.Name = "btnsubmit"
         btnsubmit.Size = New Size(128, 44)
         btnsubmit.TabIndex = 0
@@ -44,7 +50,7 @@ Partial Class Createdata
         ' 
         btnmasuk.BackColor = SystemColors.ScrollBar
         btnmasuk.Font = New Font("Yu Gothic UI", 13.8F)
-        btnmasuk.Location = New Point(31, 145)
+        btnmasuk.Location = New Point(33, 145)
         btnmasuk.Name = "btnmasuk"
         btnmasuk.Size = New Size(265, 45)
         btnmasuk.TabIndex = 1
@@ -55,7 +61,7 @@ Partial Class Createdata
         ' 
         btnkeluar.BackColor = SystemColors.ScrollBar
         btnkeluar.Font = New Font("Yu Gothic UI", 13.8F)
-        btnkeluar.Location = New Point(323, 145)
+        btnkeluar.Location = New Point(325, 145)
         btnkeluar.Name = "btnkeluar"
         btnkeluar.Size = New Size(265, 45)
         btnkeluar.TabIndex = 2
@@ -75,12 +81,62 @@ Partial Class Createdata
         ' 
         ' gbform
         ' 
-        gbform.Location = New Point(31, 205)
+        gbform.Controls.Add(tbnominal)
+        gbform.Controls.Add(tbket)
+        gbform.Controls.Add(lblnominal)
+        gbform.Controls.Add(Label2)
+        gbform.Controls.Add(lblketerangan)
+        gbform.Location = New Point(33, 205)
         gbform.Name = "gbform"
         gbform.Size = New Size(557, 303)
         gbform.TabIndex = 4
         gbform.TabStop = False
         gbform.Text = "Form Data"
+        ' 
+        ' lblnominal
+        ' 
+        lblnominal.AutoSize = True
+        lblnominal.Font = New Font("Yu Gothic UI", 12F)
+        lblnominal.Location = New Point(15, 34)
+        lblnominal.Name = "lblnominal"
+        lblnominal.Size = New Size(87, 28)
+        lblnominal.TabIndex = 5
+        lblnominal.Text = "Nominal"
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Font = New Font("Yu Gothic UI", 12F)
+        Label2.Location = New Point(15, 83)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(69, 28)
+        Label2.TabIndex = 6
+        Label2.Text = "Label2"
+        ' 
+        ' lblketerangan
+        ' 
+        lblketerangan.AutoSize = True
+        lblketerangan.Font = New Font("Yu Gothic UI", 12F)
+        lblketerangan.Location = New Point(15, 134)
+        lblketerangan.Name = "lblketerangan"
+        lblketerangan.Size = New Size(112, 28)
+        lblketerangan.TabIndex = 7
+        lblketerangan.Text = "Keterangan"
+        ' 
+        ' tbket
+        ' 
+        tbket.Location = New Point(131, 138)
+        tbket.Multiline = True
+        tbket.Name = "tbket"
+        tbket.Size = New Size(391, 120)
+        tbket.TabIndex = 8
+        ' 
+        ' tbnominal
+        ' 
+        tbnominal.Location = New Point(131, 38)
+        tbnominal.Name = "tbnominal"
+        tbnominal.Size = New Size(391, 27)
+        tbnominal.TabIndex = 9
         ' 
         ' Createdata
         ' 
@@ -95,6 +151,8 @@ Partial Class Createdata
         Controls.Add(btnsubmit)
         Name = "Createdata"
         Text = "Createdata"
+        gbform.ResumeLayout(False)
+        gbform.PerformLayout()
         ResumeLayout(False)
     End Sub
 
@@ -103,4 +161,9 @@ Partial Class Createdata
     Friend WithEvents btnkeluar As Button
     Friend WithEvents btnback As Button
     Friend WithEvents gbform As GroupBox
+    Friend WithEvents lblnominal As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents lblketerangan As Label
+    Friend WithEvents tbnominal As TextBox
+    Friend WithEvents tbket As TextBox
 End Class

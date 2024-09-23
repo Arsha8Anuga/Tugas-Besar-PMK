@@ -24,12 +24,12 @@ Partial Class Tabel
     Private Sub InitializeComponent()
         btnmasuktbl = New Button()
         btnkeluartbl = New Button()
-        btnwaktu = New Button()
-        btnrange = New Button()
         btnback2 = New Button()
         gbgrafik = New GroupBox()
         gbtabel = New GroupBox()
         Label1 = New Label()
+        ComboBox1 = New ComboBox()
+        DateTimePicker1 = New DateTimePicker()
         SuspendLayout()
         ' 
         ' btnmasuktbl
@@ -53,28 +53,6 @@ Partial Class Tabel
         btnkeluartbl.TabIndex = 1
         btnkeluartbl.Text = "Pengeluaran"
         btnkeluartbl.UseVisualStyleBackColor = False
-        ' 
-        ' btnwaktu
-        ' 
-        btnwaktu.BackColor = SystemColors.ScrollBar
-        btnwaktu.Font = New Font("Yu Gothic UI", 13.8F)
-        btnwaktu.Location = New Point(31, 628)
-        btnwaktu.Name = "btnwaktu"
-        btnwaktu.Size = New Size(233, 45)
-        btnwaktu.TabIndex = 2
-        btnwaktu.Text = "Waktu"
-        btnwaktu.UseVisualStyleBackColor = False
-        ' 
-        ' btnrange
-        ' 
-        btnrange.BackColor = SystemColors.ScrollBar
-        btnrange.Font = New Font("Yu Gothic UI", 13.8F)
-        btnrange.Location = New Point(469, 628)
-        btnrange.Name = "btnrange"
-        btnrange.Size = New Size(233, 45)
-        btnrange.TabIndex = 3
-        btnrange.Text = "Range Hari"
-        btnrange.UseVisualStyleBackColor = False
         ' 
         ' btnback2
         ' 
@@ -115,6 +93,25 @@ Partial Class Tabel
         Label1.TabIndex = 0
         Label1.Text = "Visualisasi Pemasukan/Pengeluaran"
         ' 
+        ' ComboBox1
+        ' 
+        ComboBox1.Font = New Font("Yu Gothic UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        ComboBox1.FormattingEnabled = True
+        ComboBox1.Items.AddRange(New Object() {"1 Day", "1 Month"})
+        ComboBox1.Location = New Point(469, 632)
+        ComboBox1.Name = "ComboBox1"
+        ComboBox1.Size = New Size(233, 39)
+        ComboBox1.TabIndex = 6
+        ' 
+        ' DateTimePicker1
+        ' 
+        DateTimePicker1.CalendarFont = New Font("Yu Gothic UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        DateTimePicker1.Font = New Font("Yu Gothic UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        DateTimePicker1.Location = New Point(31, 639)
+        DateTimePicker1.Name = "DateTimePicker1"
+        DateTimePicker1.Size = New Size(244, 27)
+        DateTimePicker1.TabIndex = 7
+        ' 
         ' Tabel
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -125,10 +122,10 @@ Partial Class Tabel
         Controls.Add(gbtabel)
         Controls.Add(gbgrafik)
         Controls.Add(btnback2)
-        Controls.Add(btnrange)
-        Controls.Add(btnwaktu)
         Controls.Add(btnkeluartbl)
         Controls.Add(btnmasuktbl)
+        Controls.Add(ComboBox1)
+        Controls.Add(DateTimePicker1)
         Name = "Tabel"
         Text = "Tabel"
         ResumeLayout(False)
@@ -137,10 +134,10 @@ Partial Class Tabel
 
     Friend WithEvents btnmasuktbl As Button
     Friend WithEvents btnkeluartbl As Button
-    Friend WithEvents btnwaktu As Button
-    Friend WithEvents btnrange As Button
     Friend WithEvents btnback2 As Button
     Friend WithEvents gbgrafik As GroupBox
     Friend WithEvents gbtabel As GroupBox
     Friend WithEvents Label1 As Label
+    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents DateTimePicker1 As DateTimePicker
 End Class

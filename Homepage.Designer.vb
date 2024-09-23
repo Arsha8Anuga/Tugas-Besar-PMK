@@ -89,7 +89,7 @@ Partial Class Homepage
         ' 
         lblgreet.AutoSize = True
         lblgreet.Font = New Font("Yu Gothic UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        lblgreet.Location = New Point(421, 40)
+        lblgreet.Location = New Point(424, 40)
         lblgreet.Name = "lblgreet"
         lblgreet.Size = New Size(170, 23)
         lblgreet.TabIndex = 5

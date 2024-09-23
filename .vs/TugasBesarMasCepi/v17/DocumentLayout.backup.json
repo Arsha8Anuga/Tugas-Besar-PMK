@@ -23,12 +23,12 @@
       "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:createdata.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|d:\\dokumen polman\\1aec3\\pemrograman komputer\\pmktugasbesar\\tugas-besar-pmk\\homepage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:homepage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|d:\\dokumen polman\\1aec3\\pemrograman komputer\\pmktugasbesar\\tugas-besar-pmk\\sql_setup\\databaseconnect.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:sql_setup\\databaseconnect.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|d:\\dokumen polman\\1aec3\\pemrograman komputer\\pmktugasbesar\\tugas-besar-pmk\\homepage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:homepage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|d:\\dokumen polman\\1aec3\\pemrograman komputer\\pmktugasbesar\\tugas-besar-pmk\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "Tabel.vb",
               "ToolTip": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\Tabel.vb",
               "RelativeToolTip": "Tabel.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-09-20T16:48:19.175Z",
               "EditorCaption": ""
@@ -89,7 +89,7 @@
               "RelativeDocumentMoniker": "Homepage.vb",
               "ToolTip": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\Homepage.vb",
               "RelativeToolTip": "Homepage.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAA+wA0AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAA8wA0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-09-20T16:10:07.378Z",
               "EditorCaption": ""
@@ -120,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Homepage.vb [Design]",
               "DocumentMoniker": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\Homepage.vb",
               "RelativeDocumentMoniker": "Homepage.vb",
@@ -132,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "DatabaseConnect.vb",
               "DocumentMoniker": "D:\\Dokumen POLMAN\\1AEC3\\Pemrograman Komputer\\PMKTugasBesar\\Tugas-Besar-PMK\\SQL_Setup\\DatabaseConnect.vb",
               "RelativeDocumentMoniker": "SQL_Setup\\DatabaseConnect.vb",
