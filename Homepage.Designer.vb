@@ -101,6 +101,7 @@ Partial Class Homepage
         AutoScaleMode = AutoScaleMode.Font
         BackColor = SystemColors.ControlLight
         ClientSize = New Size(624, 642)
+        ControlBox = False
         Controls.Add(lblgreet)
         Controls.Add(btnlogout)
         Controls.Add(btnexit)

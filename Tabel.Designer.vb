@@ -120,6 +120,7 @@ Partial Class Tabel
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1361, 721)
+        ControlBox = False
         Controls.Add(Label1)
         Controls.Add(gbtabel)
         Controls.Add(gbgrafik)

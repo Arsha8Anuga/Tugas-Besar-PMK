@@ -89,6 +89,7 @@ Partial Class Logactivity
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(624, 668)
+        ControlBox = False
         Controls.Add(tblog4)
         Controls.Add(tblog3)
         Controls.Add(tblog2)

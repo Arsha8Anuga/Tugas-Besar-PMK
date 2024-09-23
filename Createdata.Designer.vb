@@ -87,6 +87,7 @@ Partial Class Createdata
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(624, 642)
+        ControlBox = False
         Controls.Add(gbform)
         Controls.Add(btnback)
         Controls.Add(btnkeluar)

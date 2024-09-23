@@ -49,9 +49,9 @@ Partial Class Login
         lbluser.Font = New Font("Yu Gothic UI", 14F)
         lbluser.Location = New Point(86, 166)
         lbluser.Name = "lbluser"
-        lbluser.Size = New Size(189, 32)
+        lbluser.Size = New Size(184, 32)
         lbluser.TabIndex = 1
-        lbluser.Text = "Username         :"
+        lbluser.Text = "Username         "
         ' 
         ' lblpass
         ' 
@@ -59,15 +59,15 @@ Partial Class Login
         lblpass.Font = New Font("Yu Gothic UI", 14F)
         lblpass.Location = New Point(86, 208)
         lblpass.Name = "lblpass"
-        lblpass.Size = New Size(187, 32)
+        lblpass.Size = New Size(182, 32)
         lblpass.TabIndex = 2
-        lblpass.Text = "Password          :"
+        lblpass.Text = "Password          "
         ' 
         ' lblinfo
         ' 
         lblinfo.AutoSize = True
         lblinfo.Font = New Font("Yu Gothic UI", 10.2F)
-        lblinfo.Location = New Point(100, 112)
+        lblinfo.Location = New Point(86, 98)
         lblinfo.Name = "lblinfo"
         lblinfo.Size = New Size(298, 23)
         lblinfo.TabIndex = 3
