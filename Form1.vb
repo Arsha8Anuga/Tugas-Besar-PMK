@@ -83,4 +83,8 @@ Public Class Form1
             MessageBox.Show("Value of Age (Column 3) in this row: " & rowValue)
         End If
     End Sub
+
+    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
+
+    End Sub
 End Class

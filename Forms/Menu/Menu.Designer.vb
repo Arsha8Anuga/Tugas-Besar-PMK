@@ -32,69 +32,86 @@ Partial Class Menu
         ' 
         ' LogoutBtn
         ' 
-        LogoutBtn.Font = New Font("Adobe Fan Heiti Std B", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        LogoutBtn.Location = New Point(12, 12)
+        LogoutBtn.BackColor = Color.FromArgb(CByte(35), CByte(36), CByte(40))
+        LogoutBtn.Font = New Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        LogoutBtn.ForeColor = Color.FromArgb(CByte(215), CByte(216), CByte(217))
+        LogoutBtn.Location = New Point(14, 16)
+        LogoutBtn.Margin = New Padding(3, 4, 3, 4)
         LogoutBtn.Name = "LogoutBtn"
-        LogoutBtn.Size = New Size(114, 36)
+        LogoutBtn.Size = New Size(130, 48)
         LogoutBtn.TabIndex = 0
         LogoutBtn.Text = "Logout"
-        LogoutBtn.UseVisualStyleBackColor = True
+        LogoutBtn.UseVisualStyleBackColor = False
         ' 
         ' UserLabel
         ' 
-        UserLabel.Font = New Font("Adobe Fan Heiti Std B", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        UserLabel.Location = New Point(145, 20)
+        UserLabel.Font = New Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        UserLabel.ForeColor = Color.FromArgb(CByte(215), CByte(216), CByte(217))
+        UserLabel.Location = New Point(166, 27)
         UserLabel.Name = "UserLabel"
-        UserLabel.Size = New Size(361, 23)
+        UserLabel.Size = New Size(413, 31)
         UserLabel.TabIndex = 1
         UserLabel.Text = "Label1"
         UserLabel.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' CreateDataBtn
         ' 
-        CreateDataBtn.Font = New Font("Adobe Fan Heiti Std B", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        CreateDataBtn.Location = New Point(126, 158)
+        CreateDataBtn.BackColor = Color.FromArgb(CByte(35), CByte(36), CByte(40))
+        CreateDataBtn.Font = New Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        CreateDataBtn.ForeColor = Color.FromArgb(CByte(215), CByte(216), CByte(217))
+        CreateDataBtn.Location = New Point(144, 211)
+        CreateDataBtn.Margin = New Padding(3, 4, 3, 4)
         CreateDataBtn.Name = "CreateDataBtn"
-        CreateDataBtn.Size = New Size(270, 36)
+        CreateDataBtn.Size = New Size(309, 48)
         CreateDataBtn.TabIndex = 2
         CreateDataBtn.Text = "Create Data"
-        CreateDataBtn.UseVisualStyleBackColor = True
+        CreateDataBtn.UseVisualStyleBackColor = False
         ' 
         ' LogActivityBtn
         ' 
-        LogActivityBtn.Font = New Font("Adobe Fan Heiti Std B", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        LogActivityBtn.Location = New Point(126, 211)
+        LogActivityBtn.BackColor = Color.FromArgb(CByte(35), CByte(36), CByte(40))
+        LogActivityBtn.Font = New Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        LogActivityBtn.ForeColor = Color.FromArgb(CByte(215), CByte(216), CByte(217))
+        LogActivityBtn.Location = New Point(144, 281)
+        LogActivityBtn.Margin = New Padding(3, 4, 3, 4)
         LogActivityBtn.Name = "LogActivityBtn"
-        LogActivityBtn.Size = New Size(270, 36)
+        LogActivityBtn.Size = New Size(309, 48)
         LogActivityBtn.TabIndex = 3
         LogActivityBtn.Text = "Log Activity"
-        LogActivityBtn.UseVisualStyleBackColor = True
+        LogActivityBtn.UseVisualStyleBackColor = False
         ' 
         ' TableAndVisualizationBtn
         ' 
-        TableAndVisualizationBtn.Font = New Font("Adobe Fan Heiti Std B", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        TableAndVisualizationBtn.Location = New Point(126, 264)
+        TableAndVisualizationBtn.BackColor = Color.FromArgb(CByte(35), CByte(36), CByte(40))
+        TableAndVisualizationBtn.Font = New Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        TableAndVisualizationBtn.ForeColor = Color.FromArgb(CByte(215), CByte(216), CByte(217))
+        TableAndVisualizationBtn.Location = New Point(144, 352)
+        TableAndVisualizationBtn.Margin = New Padding(3, 4, 3, 4)
         TableAndVisualizationBtn.Name = "TableAndVisualizationBtn"
-        TableAndVisualizationBtn.Size = New Size(270, 36)
+        TableAndVisualizationBtn.Size = New Size(309, 48)
         TableAndVisualizationBtn.TabIndex = 4
         TableAndVisualizationBtn.Text = "Table And Visualization"
-        TableAndVisualizationBtn.UseVisualStyleBackColor = True
+        TableAndVisualizationBtn.UseVisualStyleBackColor = False
         ' 
         ' ExitBtn
         ' 
-        ExitBtn.Font = New Font("Adobe Fan Heiti Std B", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        ExitBtn.Location = New Point(126, 319)
+        ExitBtn.BackColor = Color.FromArgb(CByte(35), CByte(36), CByte(40))
+        ExitBtn.Font = New Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        ExitBtn.ForeColor = Color.FromArgb(CByte(215), CByte(216), CByte(217))
+        ExitBtn.Location = New Point(144, 425)
+        ExitBtn.Margin = New Padding(3, 4, 3, 4)
         ExitBtn.Name = "ExitBtn"
-        ExitBtn.Size = New Size(270, 36)
+        ExitBtn.Size = New Size(309, 48)
         ExitBtn.TabIndex = 5
         ExitBtn.Text = "Exit"
-        ExitBtn.UseVisualStyleBackColor = True
+        ExitBtn.UseVisualStyleBackColor = False
         ' 
         ' Menu
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(530, 416)
+        BackColor = Color.FromArgb(CByte(49), CByte(51), CByte(56))
+        ClientSize = New Size(606, 555)
         ControlBox = False
         Controls.Add(ExitBtn)
         Controls.Add(TableAndVisualizationBtn)
@@ -103,6 +120,7 @@ Partial Class Menu
         Controls.Add(UserLabel)
         Controls.Add(LogoutBtn)
         FormBorderStyle = FormBorderStyle.FixedSingle
+        Margin = New Padding(3, 4, 3, 4)
         Name = "Menu"
         ResumeLayout(False)
     End Sub
