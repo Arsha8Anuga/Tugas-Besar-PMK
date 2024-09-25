@@ -139,7 +139,7 @@ Public Class TableAndVisualization
 
             Dim scatterSeries As New ScatterSeries With {
                     .MarkerType = MarkerType.Circle,
-                    .MarkerFill = OxyColors.Black,
+                    .MarkerFill = OxyColor.FromRgb(CByte(215), CByte(216), CByte(217)),
                     .MarkerSize = 2
                 }
 
@@ -171,18 +171,27 @@ Public Class TableAndVisualization
             ' Set the axes
             plotModel.Axes.Add(New DateTimeAxis() With {
                     .Position = AxisPosition.Bottom,
-                    .Title = "Date"
+                    .Title = "Date",
+                    .TextColor = OxyColor.FromRgb(CByte(215), CByte(216), CByte(217)),
+                    .AxislineColor = OxyColor.FromRgb(CByte(215), CByte(216), CByte(217)),
+                    .TitleColor = OxyColor.FromRgb(CByte(215), CByte(216), CByte(217)),
+                    .TicklineColor = OxyColor.FromRgb(CByte(215), CByte(216), CByte(217)),
+                    .ExtraGridlineColor = OxyColor.FromRgb(CByte(215), CByte(216), CByte(217)),
+                    .MajorGridlineColor = OxyColor.FromRgb(CByte(215), CByte(216), CByte(217))
                 })
             plotModel.Axes.Add(New LinearAxis() With {
                     .Position = AxisPosition.Left,
-                    .Title = "Nominal"
+                    .Title = "Nominal",
+                    .TextColor = OxyColor.FromRgb(CByte(215), CByte(216), CByte(217)),
+                    .AxislineColor = OxyColor.FromRgb(CByte(215), CByte(216), CByte(217)),
+                    .TitleColor = OxyColor.FromRgb(CByte(215), CByte(216), CByte(217))
                 })
 
             ' Bind the plot model to the OxyPlot control
             DataGraph.Model = plotModel
 
         Else
-            MessageBox.Show("Error loading data: " & result.Value.ToString())
+            MessageBox.Show(result.Value.ToString())
         End If
     End Sub
 

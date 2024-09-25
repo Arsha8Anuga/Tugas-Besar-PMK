@@ -1760,19 +1760,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AZKA\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AZKA\\Tugas-Besar-PMK\\TugasBesarMasCepi.vbproj",
+      "projectUniqueName": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\TugasBesarMasCepi.vbproj",
       "projectName": "TugasBesarMasCepi",
-      "projectPath": "C:\\Users\\AZKA\\Tugas-Besar-PMK\\TugasBesarMasCepi.vbproj",
-      "packagesPath": "C:\\Users\\AZKA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AZKA\\Tugas-Besar-PMK\\obj\\",
+      "projectPath": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\TugasBesarMasCepi.vbproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\AZKA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
