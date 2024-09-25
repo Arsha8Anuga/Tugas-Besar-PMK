@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|e:\\dev ( pemogramman )\\kuliah\\praktek\\pemogramman komputer\\tugas besar\\visual basic\\tugasbesarmascepi\\forms\\authentication\\register\\register.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:forms\\authentication\\register\\register.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|e:\\dev ( pemogramman )\\kuliah\\praktek\\pemogramman komputer\\tugas besar\\visual basic\\tugasbesarmascepi\\forms\\authentication\\login\\loginuser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:forms\\authentication\\login\\loginuser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|e:\\dev ( pemogramman )\\kuliah\\praktek\\pemogramman komputer\\tugas besar\\visual basic\\tugasbesarmascepi\\forms\\authentication\\login\\loginuser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:forms\\authentication\\login\\loginuser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|e:\\dev ( pemogramman )\\kuliah\\praktek\\pemogramman komputer\\tugas besar\\visual basic\\tugasbesarmascepi\\forms\\authentication\\login\\loginuser.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:forms\\authentication\\login\\loginuser.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|e:\\dev ( pemogramman )\\kuliah\\praktek\\pemogramman komputer\\tugas besar\\visual basic\\tugasbesarmascepi\\library\\filehandler.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:library\\filehandler.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|e:\\dev ( pemogramman )\\kuliah\\praktek\\pemogramman komputer\\tugas besar\\visual basic\\tugasbesarmascepi\\forms\\authentication\\register\\register.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:forms\\authentication\\register\\register.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|e:\\dev ( pemogramman )\\kuliah\\praktek\\pemogramman komputer\\tugas besar\\visual basic\\tugasbesarmascepi\\forms\\menu\\menu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
@@ -37,14 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|e:\\dev ( pemogramman )\\kuliah\\praktek\\pemogramman komputer\\tugas besar\\visual basic\\tugasbesarmascepi\\forms\\authentication\\register\\register.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:forms\\authentication\\register\\register.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|e:\\dev ( pemogramman )\\kuliah\\praktek\\pemogramman komputer\\tugas besar\\visual basic\\tugasbesarmascepi\\forms\\authentication\\login\\loginuser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:forms\\authentication\\login\\loginuser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|e:\\dev ( pemogramman )\\kuliah\\praktek\\pemogramman komputer\\tugas besar\\visual basic\\tugasbesarmascepi\\forms\\authentication\\login\\loginuser.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:forms\\authentication\\login\\loginuser.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|e:\\dev ( pemogramman )\\kuliah\\praktek\\pemogramman komputer\\tugas besar\\visual basic\\tugasbesarmascepi\\forms\\tableandvisualization\\tableandvisualization.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
@@ -115,10 +119,6 @@
       "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:forms\\startupform\\databaseverification.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|e:\\dev ( pemogramman )\\kuliah\\praktek\\pemogramman komputer\\tugas besar\\visual basic\\tugasbesarmascepi\\library\\filehandler.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:library\\filehandler.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|e:\\dev ( pemogramman )\\kuliah\\praktek\\pemogramman komputer\\tugas besar\\visual basic\\tugasbesarmascepi\\tugasbesarmascepi.vbproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{261C45EE-6A99-4A67-835E-48054BE4394F}|TugasBesarMasCepi.vbproj|solutionrelative:tugasbesarmascepi.vbproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -162,7 +162,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -178,20 +178,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Register.vb",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\Authentication\\Register\\Register.vb",
               "RelativeDocumentMoniker": "Forms\\Authentication\\Register\\Register.vb",
-              "ToolTip": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\Authentication\\Register\\Register.vb*",
-              "RelativeToolTip": "Forms\\Authentication\\Register\\Register.vb*",
+              "ToolTip": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\Authentication\\Register\\Register.vb",
+              "RelativeToolTip": "Forms\\Authentication\\Register\\Register.vb",
               "ViewState": "AgIAADMAAAAAAAAAAAAmwEMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-23T13:47:05.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T13:47:05.687Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Register.Designer.vb",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\Authentication\\Register\\Register.Designer.vb",
               "RelativeDocumentMoniker": "Forms\\Authentication\\Register\\Register.Designer.vb",
@@ -199,24 +198,23 @@
               "RelativeToolTip": "Forms\\Authentication\\Register\\Register.Designer.vb",
               "ViewState": "AgIAAAwAAAAAAAAAAAAIwIcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-23T13:20:49.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T13:20:49.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Register.vb [Design]",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\Authentication\\Register\\Register.vb",
               "RelativeDocumentMoniker": "Forms\\Authentication\\Register\\Register.vb",
-              "ToolTip": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\Authentication\\Register\\Register.vb [Design]*",
-              "RelativeToolTip": "Forms\\Authentication\\Register\\Register.vb [Design]*",
+              "ToolTip": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\Authentication\\Register\\Register.vb [Design]",
+              "RelativeToolTip": "Forms\\Authentication\\Register\\Register.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-09-23T13:20:06.571Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "TableAndVisualization.Designer.vb",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\TableAndVisualization\\TableAndVisualization.Designer.vb",
               "RelativeDocumentMoniker": "Forms\\TableAndVisualization\\TableAndVisualization.Designer.vb",
@@ -224,12 +222,11 @@
               "RelativeToolTip": "Forms\\TableAndVisualization\\TableAndVisualization.Designer.vb",
               "ViewState": "AgIAACoAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-22T15:40:37.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T15:40:37.948Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "TableAndVisualization.vb",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\TableAndVisualization\\TableAndVisualization.vb",
               "RelativeDocumentMoniker": "Forms\\TableAndVisualization\\TableAndVisualization.vb",
@@ -237,12 +234,11 @@
               "RelativeToolTip": "Forms\\TableAndVisualization\\TableAndVisualization.vb",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwGEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-22T15:47:12.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T15:47:12.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "TableAndVisualization.vb [Design]",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\TableAndVisualization\\TableAndVisualization.vb",
               "RelativeDocumentMoniker": "Forms\\TableAndVisualization\\TableAndVisualization.vb",
@@ -254,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "LogActivity.vb",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\LogActivity\\LogActivity.vb",
               "RelativeDocumentMoniker": "Forms\\LogActivity\\LogActivity.vb",
@@ -266,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "LogActivity.Designer.vb",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\LogActivity\\LogActivity.Designer.vb",
               "RelativeDocumentMoniker": "Forms\\LogActivity\\LogActivity.Designer.vb",
@@ -278,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "LogActivity.vb [Design]",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\LogActivity\\LogActivity.vb",
               "RelativeDocumentMoniker": "Forms\\LogActivity\\LogActivity.vb",
@@ -290,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "CreateData.vb",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\Menu\\CreateData\\CreateData.vb",
               "RelativeDocumentMoniker": "Forms\\Menu\\CreateData\\CreateData.vb",
@@ -302,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CreateData.vb [Design]",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\Menu\\CreateData\\CreateData.vb",
               "RelativeDocumentMoniker": "Forms\\Menu\\CreateData\\CreateData.vb",
@@ -314,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Menu.vb",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\Menu\\Menu.vb",
               "RelativeDocumentMoniker": "Forms\\Menu\\Menu.vb",
@@ -322,12 +318,11 @@
               "RelativeToolTip": "Forms\\Menu\\Menu.vb",
               "ViewState": "AgIAABQAAAAAAAAAAAAWwCoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-22T10:04:33.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T10:04:33.747Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Menu.vb [Design]",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\Menu\\Menu.vb",
               "RelativeDocumentMoniker": "Forms\\Menu\\Menu.vb",
@@ -339,20 +334,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LoginUser.vb",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\Authentication\\Login\\LoginUser.vb",
               "RelativeDocumentMoniker": "Forms\\Authentication\\Login\\LoginUser.vb",
               "ToolTip": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\Authentication\\Login\\LoginUser.vb",
               "RelativeToolTip": "Forms\\Authentication\\Login\\LoginUser.vb",
-              "ViewState": "AgIAADAAAAAAAAAAAAApwDcAAAB6AAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAwwEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-09-22T08:05:05.764Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "LoginUser.Designer.vb",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\Authentication\\Login\\LoginUser.Designer.vb",
               "RelativeDocumentMoniker": "Forms\\Authentication\\Login\\LoginUser.Designer.vb",
@@ -360,12 +355,11 @@
               "RelativeToolTip": "Forms\\Authentication\\Login\\LoginUser.Designer.vb",
               "ViewState": "AgIAAJEAAAAAAAAAAAAowJsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-22T07:56:34.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T07:56:34.208Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "LoginUser.vb [Design]",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\Authentication\\Login\\LoginUser.vb",
               "RelativeDocumentMoniker": "Forms\\Authentication\\Login\\LoginUser.vb",
@@ -377,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "DatabaseVerification.vb",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\StartUpForm\\DatabaseVerification.vb",
               "RelativeDocumentMoniker": "Forms\\StartUpForm\\DatabaseVerification.vb",
@@ -389,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "DatabaseVerification.Designer.vb",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\StartUpForm\\DatabaseVerification.Designer.vb",
               "RelativeDocumentMoniker": "Forms\\StartUpForm\\DatabaseVerification.Designer.vb",
@@ -401,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "DatabaseVerification.vb [Design]",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Forms\\StartUpForm\\DatabaseVerification.vb",
               "RelativeDocumentMoniker": "Forms\\StartUpForm\\DatabaseVerification.vb",
@@ -413,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "ConstantManagement.vb",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Helpers\\ConstantManagement.vb",
               "RelativeDocumentMoniker": "Helpers\\ConstantManagement.vb",
@@ -421,12 +415,11 @@
               "RelativeToolTip": "Helpers\\ConstantManagement.vb",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAC5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-19T15:57:09.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T15:57:09.559Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "SessionManager.vb",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Session\\SessionManager.vb",
               "RelativeDocumentMoniker": "Session\\SessionManager.vb",
@@ -438,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "DBConnector.vb",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Helpers\\DBConnector.vb",
               "RelativeDocumentMoniker": "Helpers\\DBConnector.vb",
@@ -462,19 +455,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 3,
               "Title": "FileHandler.vb",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Library\\FileHandler.vb",
               "RelativeDocumentMoniker": "Library\\FileHandler.vb",
               "ToolTip": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Library\\FileHandler.vb",
               "RelativeToolTip": "Library\\FileHandler.vb",
-              "ViewState": "AgIAAAQAAAAAAAAAAABQwBIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-09-19T16:13:04.878Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "DBProcessor.vb",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Library\\DBProcessor.vb",
               "RelativeDocumentMoniker": "Library\\DBProcessor.vb",
@@ -482,8 +475,7 @@
               "RelativeToolTip": "Library\\DBProcessor.vb",
               "ViewState": "AgIAAI8AAAAAAAAAAAAIwDMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-20T10:49:40.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T10:49:40.116Z"
             },
             {
               "$type": "Document",
@@ -499,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "SessionTask.vb",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Session\\SessionTask.vb",
               "RelativeDocumentMoniker": "Session\\SessionTask.vb",
@@ -547,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Form3.vb",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Form3.vb",
               "RelativeDocumentMoniker": "Form3.vb",
@@ -606,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Form1.vb",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Form1.vb",
               "RelativeDocumentMoniker": "Form1.vb",
@@ -618,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "DatabaseConnect.vb",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\SQL_Setup\\DatabaseConnect.vb",
               "RelativeDocumentMoniker": "SQL_Setup\\DatabaseConnect.vb",
@@ -630,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Form1.vb [Design]",
               "DocumentMoniker": "E:\\dev ( pemogramman )\\Kuliah\\Praktek\\Pemogramman Komputer\\Tugas Besar\\Visual Basic\\TugasBesarMasCepi\\Form1.vb",
               "RelativeDocumentMoniker": "Form1.vb",

@@ -139,7 +139,7 @@ Partial Class LoginUser
         ' 
         AutoScaleDimensions = New SizeF(7.0F, 15.0F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(484, 251)
+        ClientSize = New Size(480, 247)
         ControlBox = False
         Controls.Add(ExitBtn)
         Controls.Add(RegisterLink)
