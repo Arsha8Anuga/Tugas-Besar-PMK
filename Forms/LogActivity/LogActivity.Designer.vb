@@ -28,31 +28,39 @@ Partial Class LogActivity
         ' 
         ' Button1
         ' 
-        Button1.Font = New Font("Adobe Fan Heiti Std B", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button1.Location = New Point(12, 12)
+        Button1.BackColor = Color.FromArgb(CByte(35), CByte(36), CByte(40))
+        Button1.Font = New Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button1.ForeColor = Color.FromArgb(CByte(215), CByte(216), CByte(217))
+        Button1.Location = New Point(14, 16)
+        Button1.Margin = New Padding(3, 4, 3, 4)
         Button1.Name = "Button1"
-        Button1.Size = New Size(83, 35)
+        Button1.Size = New Size(95, 47)
         Button1.TabIndex = 0
         Button1.Text = "Back"
-        Button1.UseVisualStyleBackColor = True
+        Button1.UseVisualStyleBackColor = False
         ' 
         ' Panel1
         ' 
         Panel1.AutoScroll = True
-        Panel1.Location = New Point(12, 66)
+        Panel1.BackColor = Color.FromArgb(CByte(35), CByte(36), CByte(40))
+        Panel1.ForeColor = Color.FromArgb(CByte(215), CByte(216), CByte(217))
+        Panel1.Location = New Point(14, 88)
+        Panel1.Margin = New Padding(3, 4, 3, 4)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(369, 360)
+        Panel1.Size = New Size(422, 480)
         Panel1.TabIndex = 1
         ' 
         ' LogActivity
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(393, 450)
+        BackColor = Color.FromArgb(CByte(49), CByte(51), CByte(56))
+        ClientSize = New Size(449, 600)
         ControlBox = False
         Controls.Add(Panel1)
         Controls.Add(Button1)
         FormBorderStyle = FormBorderStyle.FixedSingle
+        Margin = New Padding(3, 4, 3, 4)
         Name = "LogActivity"
         ResumeLayout(False)
     End Sub

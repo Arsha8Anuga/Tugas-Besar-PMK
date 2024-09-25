@@ -35,10 +35,11 @@ Partial Class Form1
         ' PlotView1
         ' 
         PlotView1.BackColor = SystemColors.AppWorkspace
-        PlotView1.Location = New Point(12, 59)
+        PlotView1.Location = New Point(14, 79)
+        PlotView1.Margin = New Padding(3, 4, 3, 4)
         PlotView1.Name = "PlotView1"
         PlotView1.PanCursor = Cursors.Hand
-        PlotView1.Size = New Size(398, 379)
+        PlotView1.Size = New Size(455, 505)
         PlotView1.TabIndex = 1
         PlotView1.Text = "PlotView1"
         PlotView1.ZoomHorizontalCursor = Cursors.SizeWE
@@ -48,18 +49,21 @@ Partial Class Form1
         ' DataGridView1
         ' 
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView1.Location = New Point(434, 59)
+        DataGridView1.Location = New Point(496, 79)
+        DataGridView1.Margin = New Padding(3, 4, 3, 4)
         DataGridView1.Name = "DataGridView1"
-        DataGridView1.Size = New Size(333, 379)
+        DataGridView1.RowHeadersWidth = 51
+        DataGridView1.Size = New Size(381, 505)
         DataGridView1.TabIndex = 2
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(779, 450)
+        ClientSize = New Size(890, 600)
         Controls.Add(DataGridView1)
         Controls.Add(PlotView1)
+        Margin = New Padding(3, 4, 3, 4)
         Name = "Form1"
         Text = "Form1"
         CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
